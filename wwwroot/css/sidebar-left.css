@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+.nav-mainOn {
+    /* set main navigation button alignment */
+    text-align: center;
+}
+
+    .nav-mainOn a:hover {
+        /* set main navigation button background color for mouse-over */
+        background: #f3f3f3;
+    }
+
+    .nav-mainOn a:active {
+        /* set main navigation button background/border color for mouse-down */
+        background: #fafafa;
+        border-top-color: #555;
+        border-right-color: #999;
+        border-bottom-color: #afafaf;
+        border-left-color: #777;
+    }
+
+.main-640-c1-text {
+    width: 500px;
+}
+
+.main-640-c2-image {
+    height: 150px;
+}
+
+.sidebar-left {
+    float: left;
+    width: 180px;
+}
+
+.sbr-l-main {
+    margin-left: 200px;
+}
+
+/* Menu Navigation Button Style */
+
+.sbr-l-menu {
+    list-style: none;
+    padding-left: 0px;
+}
+
+    .sbr-l-menu a {
+        /* set menu navigation button text color to black */
+        color: #000;
+    }
+
+    .sbr-l-menu li {
+        /* set padding space between buttons */
+        padding-top: 3px;
+        padding-right: 3px;
+        padding-bottom: 3px;
+        padding-left: 3px;
+    }
+
+.sbr-l-menuOn a:hover {
+    /* set menu navigation button background color for mouse-over */
+    background: #f3f3f3;
+}
+
+.sbr-l-menuOn a:active {
+    /* set menu navigation button background/border color for mouse-down */
+    background: #fafafa;
+    border-top-color: #555;
+    border-right-color: #999;
+    border-bottom-color: #afafaf;
+    border-left-color: #777;
+}
+
+.sbr-l-menuButton {
+    /* set menu navigation button appearance */
+    background: #dfdfdf;
+    color: #000;
+    font-size: 13px;
+    font-weight: bold;
+    /* text-transform: uppercase; */
+    vertical-align: middle;
+    text-decoration: none;
+    padding: 7px 10px 7px 10px;
+    display: block;
+    border-radius: 4px;
+    border-width: 2px;
+    border-style: solid;
+    border-top-color: #aaa;
+    border-right-color: #707070;
+    border-bottom-color: #555;
+    border-left-color: #878787;
+    width: 250px;
+    height: 13px;
+}

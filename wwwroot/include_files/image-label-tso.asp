@@ -1,0 +1,1 @@
+This image is the property and copyright of Technical Sports One, L.L.C

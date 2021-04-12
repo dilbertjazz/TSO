@@ -1,0 +1,1 @@
+This image is the property and copyright of Honda Motor Co., Ltd.

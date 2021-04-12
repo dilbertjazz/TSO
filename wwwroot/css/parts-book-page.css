@@ -1,0 +1,703 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Page Styles */
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    color: #000;
+    margin: 0 auto;
+    width: 840px;
+}
+
+.btn-add-to-cart {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.middle {
+    text-align: center;
+    vertical-align: middle;
+}
+
+hr {
+    padding-left: 0px;
+    background-color: #878787;
+    width: 90%;
+    height: 5px;
+}
+
+    hr.hr-ltgrey-2px {
+        background-color: #EEE;
+        width: 90%;
+        height: 2px;
+    }
+
+.notice-customer {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #000;
+    font-size: 13px;
+}
+
+.notice-copyright {
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    color: #000;
+    background-color: #dfdfdf;
+    font-size: 10px;
+}
+
+.notice-page-problem {
+    padding: 0px;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #555;
+    font-size: 12px;
+}
+
+.notice-page-parts {
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    color: #dfdfdf;
+    background-color: #dfdfdf;
+    font-size: 2px;
+}
+
+.page-logo {
+    height: 140px;
+    width: 840px;
+    line-height: 1;
+}
+
+.page-banner {
+    color: #aaa;
+    width: 840px;
+    height: 19px;
+    line-height: 1;
+    /* padding-top: 5px; */
+}
+
+.page-title {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #707070;
+    font-size: 1.2em;
+    width: 840px;
+}
+
+.page-title-am {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    font-size: 2em;
+}
+
+.page-title-blue {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #0000ff;
+    font-size: 2em;
+}
+
+.page-image {
+    padding-top: 10px;
+    height: 400px;
+}
+
+.page-image-300 {
+    padding-top: 10px;
+    height: 300px;
+}
+
+.page-image-500 {
+    padding-top: 10px;
+    height: 500px;
+}
+
+.page-image-600 {
+    padding-top: 10px;
+    height: 600px;
+}
+
+.page-image-label {
+    padding: 0px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: normal;
+    color: #808080;
+}
+
+img.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+/* Main Navigation Button Style */
+
+.nav-main {
+    list-style: none;
+    padding-left: 0;
+}
+
+    .nav-main ul {
+        /* remove left margin and left padding from list */
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .nav-main li {
+        /* set main navigation button text alignment and padding space inbetween buttons */
+        text-align: center;
+        padding-top: 3px;
+        padding-right: 3px;
+        padding-bottom: 3px;
+        padding-left: 3px;
+        float: left;
+    }
+
+    .nav-main a {
+        /* set main navigation button text color to black */
+        color: #000;
+    }
+
+.nav-mainOn a:hover {
+    /* set main navigation button background color for mouse-over #f3f3f3 */
+    background: #f3f3f3;
+}
+
+.nav-mainOn a:active {
+    /* set main navigation button background/border color for mouse-down */
+    background: #fafafa;
+    border-top-color: #555;
+    border-right-color: #999;
+    border-bottom-color: #afafaf;
+    border-left-color: #777;
+}
+
+.nav-mainButton {
+    /* set main navigation button appearance */
+    background: #dfdfdf;
+    color: #000;
+    font-size: 13px;
+    /*font-weight: bold;*/
+    /* text-transform: uppercase; */
+    vertical-align: middle;
+    text-decoration: none;
+    padding: 7px 5px 7px 5px;
+    display: block;
+    border-radius: 4px;
+    border-width: 2px;
+    border-style: solid;
+    border-top-color: #aaa;
+    border-right-color: #707070;
+    border-bottom-color: #555;
+    border-left-color: #878787;
+    width: 148px;
+    height: 13px;
+}
+
+.nav-mainButtonNarrow2pnb {
+    /* set main navigation button appearance */
+    background: #dfdfdf;
+    color: #000;
+    font-size: 13px;
+    /*font-weight: bold;*/
+    /* text-transform: uppercase; */
+    vertical-align: middle;
+    text-decoration: none;
+    padding: 7px 5px 7px 5px;
+    display: block;
+    border-radius: 4px;
+    border-width: 2px;
+    border-style: solid;
+    border-top-color: #aaa;
+    border-right-color: #707070;
+    border-bottom-color: #555;
+    border-left-color: #878787;
+    width: 124px;
+    height: 13px;
+}
+
+.nav-mainButtonNarrow4pnb {
+    /* set main navigation button appearance */
+    background: #dfdfdf;
+    color: #000;
+    font-size: 13px;
+    /*font-weight: bold;*/
+    /* text-transform: uppercase; */
+    vertical-align: middle;
+    text-decoration: none;
+    padding: 7px 5px 7px 5px;
+    display: block;
+    border-radius: 4px;
+    border-width: 2px;
+    border-style: solid;
+    border-top-color: #aaa;
+    border-right-color: #707070;
+    border-bottom-color: #555;
+    border-left-color: #878787;
+    width: 108px;
+    height: 13px;
+}
+
+.nav-mainButtonPgNav2b {
+    /* set main navigation button appearance */
+    background: #dfdfdf;
+    color: #000;
+    font-size: 13px;
+    /*font-weight: bold;*/
+    /* text-transform: uppercase; */
+    vertical-align: middle;
+    text-decoration: none;
+    padding: 7px 5px 7px 5px;
+    display: block;
+    border-radius: 4px;
+    border-width: 2px;
+    border-style: solid;
+    border-top-color: #aaa;
+    border-right-color: #707070;
+    border-bottom-color: #555;
+    border-left-color: #878787;
+    width: 16px;
+    height: 13px;
+}
+
+.nav-mainButtonPgNav4b {
+    /* set main navigation button appearance */
+    background: #dfdfdf;
+    color: #000;
+    font-size: 13px;
+    /*font-weight: bold;*/
+    /* text-transform: uppercase; */
+    vertical-align: middle;
+    text-decoration: none;
+    padding: 7px 5px 7px 5px;
+    display: block;
+    border-radius: 4px;
+    border-width: 2px;
+    border-style: solid;
+    border-top-color: #aaa;
+    border-right-color: #707070;
+    border-bottom-color: #555;
+    border-left-color: #878787;
+    width: 10px;
+    height: 13px;
+}
+
+.nav-mainOneButtonCenter {
+    /* set single main navigation button appearance */
+    background: #dfdfdf;
+    color: #000;
+    font-size: 13px;
+    font-weight: bold;
+    /* text-transform: uppercase; */
+    vertical-align: middle;
+    text-decoration: none;
+    padding: 7px 5px 7px 5px;
+    display: block;
+    border-radius: 4px;
+    border-width: 2px;
+    border-style: solid;
+    border-top-color: #aaa;
+    border-right-color: #707070;
+    border-bottom-color: #555;
+    border-left-color: #878787;
+    width: auto;
+    height: 13px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+/* Footer Navigation Button Style */
+
+.nav-foot {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+    .nav-foot ul {
+        /* remove left margin and left padding from list */
+        margin: 0px;
+        padding-left: 0px;
+        padding-top: 5px;
+    }
+
+    .nav-foot li {
+        /* set main navigation button text alignment and padding space inbetween buttons */
+        list-style: none;
+        text-align: center;
+        margin: 0px;
+        margin-left: 0px;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        float: left;
+    }
+
+    .nav-foot a {
+        /* set main navigation button text color to black */
+        color: #000;
+        background-color: #777;
+        color: #fff;
+    }
+
+.nav-footOn a:hover {
+    /* set main navigation button background color for mouse-over */
+    background: #999;
+    color: #000;
+}
+
+.nav-footOn a:active {
+    /* set main navigation button background/border color for mouse-down */
+    background: #dfdfdf;
+    color: #000;
+}
+
+.nav-footButton {
+    /* set main navigation button appearance */
+    background: #dfdfdf;
+    color: #000;
+    font-size: 13px;
+    font-weight: bold;
+    /* text-transform: uppercase; */
+    vertical-align: middle;
+    text-decoration: none;
+    padding: 3px 5px 3px 5px;
+    display: block; /*
+	border-radius: 4px;
+	border-width: 2px;
+	border-style: solid;
+	border-top-color: #aaa;
+	border-right-color: #707070;
+	border-bottom-color: #555;
+	border-left-color: #878787; */
+    width: 110px;
+    height: 13px;
+}
+
+/* Aftermarket Part Record Layout 5 Column 1 Image*/
+
+.part-am {
+    width: 840px;
+    border-style: solid;
+    border-width: 1px;
+    border-collapse: separate;
+    border-spacing: 1px;
+    border-color: #aaa;
+}
+
+    .part-am td, th {
+        padding-top: 3px;
+        padding-right: 3px;
+        padding-bottom: 3px;
+        padding-left: 3px;
+        vertical-align: middle;
+        border: 1px solid black;
+        border-color: #aaa;
+        font-size: 14px;
+    }
+
+
+/* th {
+	background-color: #FFFFCC;
+	text-align: center;
+}
+
+tr:nth-of-type(odd) {
+	background-color: #fff;
+}
+
+tr:nth-of-type(even) {
+	background-color: #ececec;
+}*/
+
+.part_group_heading_center {
+    background-color: #fff;
+    text-align: center;
+}
+
+.part_group_heading_left {
+    background-color: #fff;
+    text-align: left;
+}
+
+.part_group_heading_right {
+    background-color: #fff;
+    text-align: right;
+}
+
+.group-title {
+    padding: 0px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.group-info {
+    padding: 0px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.group-note {
+    padding: 0px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.group-paragraph {
+    padding: 0.6em;
+}
+
+.item-number-am {
+    width: 130px;
+    text-align: left;
+}
+
+.description-am {
+    width: 423px;
+    text-align: left;
+}
+
+    .description-am ul {
+        margin: 10px;
+    }
+
+    .description-am li {
+        font-size: .9em;
+        margin-bottom: 5px;
+    }
+
+.item-image-am {
+    padding: 0px;
+    text-align: center;
+    vertical-align: middle;
+    width: 100px;
+}
+
+.item-price-am {
+    width: 100px;
+    text-align: right;
+}
+
+    .item-price-am:before {
+        content: '$';
+    }
+
+.buy-qty-am {
+    width: 45px;
+    text-align: right;
+}
+
+/* Aftermarket Part Record Layout 6 Column 2 Images*/
+
+.part-am-6c-2i {
+    width: 840px;
+    border-style: solid;
+    border-width: 1px;
+    border-collapse: separate;
+    border-spacing: 1px;
+    border-color: #aaa;
+}
+
+    .part-am-6c-2i td, th {
+        padding-top: 3px;
+        padding-right: 3px;
+        padding-bottom: 3px;
+        padding-left: 3px;
+        vertical-align: middle;
+        border: 1px solid black;
+        border-color: #aaa;
+        font-size: 14px;
+    }
+
+/* th {
+	background-color: #FFFFCC;
+	text-align: center;
+}
+
+tr:nth-of-type(odd) {
+	background-color: #fff;
+}
+
+tr:nth-of-type(even) {
+	background-color: #ececec;
+}*/
+
+.group-title-am-6c-2i-f24px {
+    padding: 0px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.group-info-am-6c-2i-f18px {
+    padding: 0px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.group-info-am-6c-2i-f18px-r {
+    padding: 0px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FF0000;
+}
+
+.item-number-am-6c-2i {
+    width: 130px;
+    text-align: left;
+}
+
+.description-am-6c-2i {
+    width: 378px;
+    text-align: left;
+}
+
+.item-image-am-6c-2i-120h {
+    /* sparkplug imagess */
+    padding: 0px;
+    text-align: center;
+    vertical-align: middle;
+    height: 120px;
+}
+
+.item-image1-am-6c-2i {
+    padding: 0px;
+    text-align: center;
+    vertical-align: middle;
+    width: 70px;
+}
+
+.item-image2-am-6c-2i {
+    padding: 0px;
+    width: 70px;
+}
+
+.item-price-am-6c-2i {
+    width: 100px;
+    text-align: right;
+}
+
+    .item-price-am-6c-2i:before {
+        content: '$';
+    }
+
+.buy-qty-am-6c-2i {
+    width: 45px;
+    text-align: right;
+}
+
+/* OEM Part Record Layout*/
+
+.parts {
+    width: 840px;
+    border-style: solid;
+    border-width: 1px;
+    border-collapse: separate;
+    border-spacing: 1px;
+    border-color: #aaa;
+}
+
+    .parts td, th {
+        padding-top: 3px;
+        padding-right: 3px;
+        padding-bottom: 3px;
+        padding-left: 3px;
+        vertical-align: middle;
+        border: 1px solid black;
+        border-color: #aaa;
+        font-size: 14px;
+    }
+
+th {
+    background-color: #FFFFCC;
+    text-align: center;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #fff;
+}
+
+tr:nth-of-type(even) {
+    background-color: #ececec;
+}
+
+.reference {
+    width: 40px;
+    text-align: center;
+    padding-right: 40%;
+}
+
+.item-number {
+    width: 130px;
+    text-align: left;
+}
+
+.description {
+    width: 400px;
+    text-align: left;
+}
+
+.used-qty {
+    width: 75px;
+    text-align: center;
+    padding-right: 10px;
+}
+
+.item-price {
+    width: 100px;
+    text-align: right;
+}
+
+    .item-price:before {
+        content: '$';
+    }
+
+.buy-qty {
+    width: 45px;
+    text-align: right;
+}
+
+.reference td {
+    text-align: right;
+}
+
+.parts.td:first-child + td + td {
+    text-align: right;
+}

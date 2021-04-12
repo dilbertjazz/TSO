@@ -1,0 +1,278 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Page Styles */
+
+html {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #fff;
+	color: #000;
+	margin: 0 auto;
+	width: 840px;
+}
+
+.center {
+	text-align: center;
+}
+
+.message-problem {
+	font-size: 14px;
+	text-align: center;
+}
+
+hr {
+  padding-left: 0px;
+  background-color: #777;
+  width: 90%;
+  height: 5px;
+}
+
+.notice-customer {
+	padding-top: 0px;
+	text-align: center;
+	font-weight: bold;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #000;
+	font-size: 13px;
+}
+
+.notice-copyright {
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+	color: #000;
+	background-color: #dfdfdf;
+	font-size: 10px;
+}
+
+.notice-page-problem {
+	padding: 0px;
+	padding-top: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #555;
+	font-size: 12px;
+}
+.page-logo {
+	width: 840px;
+	height: 145px;
+}
+
+.page-banner {
+	color: #aaa;
+	width: 840px;
+	height: 19px;
+}
+
+.page-title {
+	padding-top: 10px;
+	text-align: center;
+	font-weight: bold;
+	color: #707070;
+	font-size: 1.2em;
+}
+
+.page-image {
+	padding-top: 10px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+.page-image-label {
+	padding: 0px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-size: 11px;
+	font-weight: normal;
+	color: #808080;
+}
+
+/* Main Navigation Button Style */
+
+.nav-main {
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav-main ul {
+	/* remove left margin and left padding from list */
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+.nav-main li {
+	/* set main navigation button text alignment and padding space inbetween buttons */
+	text-align: center;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	float: left;
+}
+
+.nav-main a {
+	/* set main navigation button text color to black */
+  color: #000;
+}
+.nav-mainOn a:hover {
+	/* set main navigation button background color for mouse-over */
+	background: #f3f3f3;
+}
+
+.nav-mainOn a:active {
+	/* set main navigation button background/border color for mouse-down */
+	background: #fafafa;
+	border-top-color: #555;
+	border-right-color: #999;
+	border-bottom-color: #afafaf;
+	border-left-color: #777;
+}
+
+.nav-mainButton {
+	/* set main navigation button appearance */
+	background: #dfdfdf;
+	color: #000;
+	font-size: 13px;
+	font-weight: bold;
+	/* text-transform: uppercase; */
+	vertical-align: middle;
+	text-decoration: none;
+	padding: 7px 5px 7px 5px;
+	display: block;
+	border-radius: 4px;
+	border-width: 2px;
+	border-style: solid;
+	border-top-color: #aaa;
+	border-right-color: #707070;
+	border-bottom-color: #555;
+	border-left-color: #878787;
+	width: 148px;
+	height: 13px;
+}
+
+/* Footer Navigation Button Style */
+
+.nav-foot {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.nav-foot ul {
+	/* remove left margin and left padding from list */
+	margin: 0px;
+	padding-left: 0px;
+	padding-top: 5px;
+}
+
+.nav-foot li {
+	/* set main navigation button text alignment and padding space inbetween buttons */
+    list-style: none;
+	text-align: center;
+	margin: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	float: left;
+}
+
+.nav-foot a {
+	/* set main navigation button text color to black */
+  color: #000;
+	background-color: #777;
+	color: #fff;
+}
+.nav-footOn a:hover {
+	/* set main navigation button background color for mouse-over */
+	background: #999;
+}
+
+.nav-footOn a:active {
+	/* set main navigation button background/border color for mouse-down */
+	background: #fafafa; /*
+	border-top-color: #555;
+	border-right-color: #999;
+	border-bottom-color: #afafaf;
+	border-left-color: #777; */
+}
+
+.nav-footButton {
+	/* set main navigation button appearance */
+	background: #dfdfdf;
+	color: #000;
+	font-size: 13px;
+	font-weight: bold;
+	/* text-transform: uppercase; */
+	vertical-align: middle;
+	text-decoration: none;
+	padding: 3px 5px 3px 5px;
+	display: block; /*
+	border-radius: 4px;
+	border-width: 2px;
+	border-style: solid;
+	border-top-color: #aaa;
+	border-right-color: #707070;
+	border-bottom-color: #555;
+	border-left-color: #878787; */
+	width: 110px;
+	height: 13px;
+}
+
+/* Menu Navigation Button Style */
+
+.nav-menu {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.nav-menu a {
+	/* set menu navigation button text color to black */
+	color: #000;
+}
+
+.nav-menu li {
+	/* set padding space between buttons */
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+}
+
+.nav-menuOn a:hover {
+	/* set menu navigation button background color for mouse-over */
+	background: #f3f3f3;
+}
+
+.nav-menuOn a:active {
+	/* set menu navigation button background/border color for mouse-down */
+	background: #fafafa;
+	border-top-color: #555;
+	border-right-color: #999;
+	border-bottom-color: #afafaf;
+	border-left-color: #777;
+}
+
+.nav-menuButton {
+	/* set menu navigation button appearance */
+	background: #dfdfdf;
+	color: #000;
+	font-size: 13px;
+	font-weight: bold;
+	/* text-transform: uppercase; */
+	vertical-align: middle;
+	text-decoration: none;
+	padding: 7px 5px 7px 5px;
+	display: block;
+	border-radius: 4px;
+	border-width: 2px;
+	border-style: solid;
+	border-top-color: #aaa;
+	border-right-color: #707070;
+	border-bottom-color: #555;
+	border-left-color: #878787;
+	width: 260px;
+	height: 13px;
+}

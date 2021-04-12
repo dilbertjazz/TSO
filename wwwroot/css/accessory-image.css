@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* define FancyBox style for single image accessories */
+
+.fancybox-title {
+    text-align: center;
+}
+
+body {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+}

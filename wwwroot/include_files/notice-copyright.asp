@@ -1,0 +1,1 @@
+Copyright &copy; 2004-2021, Technical Sports One, LLC

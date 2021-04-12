@@ -1,0 +1,1 @@
+Please read our Terms of Sale before placing an order.  Part numbers are provided as a courtesy.<br>Customer's are responsibility to confirm the accuracy of all part numbers.

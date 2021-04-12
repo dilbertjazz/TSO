@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="google-site-verification" content="X7PKjiEQc89ftfT-8_VT71XdK0C7t8yBPhNdDqnbZTU" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <<title>@ViewData["Title"] - Technical Sports One</title>
+    <meta name="Author" content="Technical Sports One LLC">
+    <meta name="description" content="Motorcycle Road Racing Parts and Supplies">
+
+    <!-- Add jQuery library (Latest Version) -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+    <!-- Add fancyBox main JS and CSS files -->
+    <link rel="stylesheet" href="/js/fb/source/jquery.fancybox.css" media="screen" />
+    <script type="text/javascript" src="/js/fb/source/jquery.fancybox.pack.js"></script>
+
+    <!-- Add mousewheel plugin (this is optional) -->
+    <script type="text/javascript" src="/js/fb/lib/jquery.mousewheel.pack.js"></script>
+
+    <!-- Add Media helper (this is optional) -->
+    <script type="text/javascript" src="/js/fb/source/helpers/jquery.fancybox-media.js"></script>
+
+    <!-- Configure FancyBox for Single Image Accessory Item. -->
+    <script src="/js/item-image.js"></script>
+
+    <link rel="stylesheet" href="common/css/page-style.css" />
+    <link rel="stylesheet" href="/css/parts-book-index.css" />
+    <link rel="stylesheet" href="common/css/parts-book-page.css" />
+    <link rel="stylesheet" href="/css/browser-reset.css" />
+    <link rel="stylesheet" href="/js/item-image.css" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css" />
+</head>
+<body>
+    <header>
+        <!-- Technical Sports One, LLC Web Page Logo -->
+        <figure><p><img src="/image/tso-web-page-logo.jpg" alt="Technical Sports One, LLC Logo" class="page-logo"></p></figure>
+
+        <!-- Technical Sports One, LLC Web Page Banner -->
+        <figure><p><img src="/image/tso-web-page-banner.jpg" alt="Technical Sports One, LLC Banner" class="page-banner"></p></figure>
+
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <partial name="_LoginPartial" />
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="About">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Terms">Terms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Copyright">Copyright</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2021 - TSO - <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+            <a asp-area="" asp-controller="Home" asp-action="About">About</a>
+            <a asp-area="" asp-controller="Home" asp-action="Terms">Terms of Sale</a>
+            <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <a asp-area="" asp-controller="Home" asp-action="Copyright">Copyright</a>
+        </div>
+    </footer>
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
